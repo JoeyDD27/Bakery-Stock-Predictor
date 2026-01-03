@@ -13,6 +13,9 @@ __pycache__/
 *.csv
 shop_learning_data.json
 
+# ML Models - AutoGluon regenerates these at runtime
+models/
+
 # Virtual environments
 venv/
 .venv/
