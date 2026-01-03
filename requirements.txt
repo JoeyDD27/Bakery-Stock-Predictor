@@ -1,10 +1,22 @@
-streamlit>=1.28.0
-pandas>=2.0.0
-requests>=2.31.0
-autogluon.tabular>=0.8.0
-numpy>=1.24.0
-holidays>=0.34
-python-dotenv>=1.0.0
-python-dateutil>=2.8.0
-hashlib-compat>=1.0.0
+# Cafe AI - Streamlit Cloud Dependencies
+# Generated for deployment
 
+# Web Framework
+streamlit>=1.28.0
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# HTTP Requests
+requests>=2.31.0
+
+# Machine Learning
+autogluon.tabular>=1.0.0
+
+# Date & Time Utilities
+python-dateutil>=2.8.0
+holidays>=0.34
+
+# Environment Variables
+python-dotenv>=1.0.0
